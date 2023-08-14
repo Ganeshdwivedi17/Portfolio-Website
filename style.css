@@ -1,0 +1,253 @@
+/* Navbar */
+
+.navbar-brand{
+    font-family:'Montserrat', sans-serif ;
+    font-size: 2rem;
+}
+.navbar{
+   padding-bottom: 3.5rem;
+}
+.navbar{
+margin: auto 5%;
+}
+.nav-item{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.nav-link{
+font-size: 18px;
+font-weight: 500;
+}
+.nav-link:hover{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    }
+
+   .btn-con:hover{
+    font-weight: 600;
+background-color: #b9ebff;
+}
+/* Tittle */
+
+#title{
+    background-color: rgb(95, 96, 97);
+    }
+    .tittle-section{
+     text-align: center; 
+    }
+   
+    .heading{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3rem;
+        line-height: 1.5;
+        color: black;
+        display: inline-block;
+    }
+    .tittle-subheading{
+        font-family: 'Montserrat', sans-serif;
+        line-height: 1.5;
+        color: black;
+        font-size: 2rem;
+    }
+    .tittle-text{
+        text-align: left;
+    }
+    .tittle-left{
+        padding: 8% 0;
+    }
+   
+    .word{
+        font-size: 2.5rem;
+        color: rgb(255, 255, 255);
+        display: none; 
+      }
+    .tittle-img{
+        width: 100%;
+    }
+    .download-button{
+        text-align: center;
+        margin: 5% 0;
+    }
+
+
+    /* About */
+
+    #about{
+        padding: 5% 7%;
+        background-color: black;
+        color: #fff;
+    }
+    #about .heading{
+    color: white;
+    }
+    .about-text{
+        text-align: left;
+        font-weight: 500;
+        line-height: 1.5;
+        font-size: 1.2rem;
+    }
+    .about{
+        padding: 5% 0;
+    }
+    .tabs {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+        padding: 0;
+      }
+      .about-img{
+        width: 100%;
+      }
+      .tab {
+        font-weight: 500;
+        font-size: 18px;
+        cursor: pointer;
+        color: #84d2f1;
+      }
+      .tab:hover{
+    color: #fff;
+      }
+      .tab.active {
+        font-weight: bold;
+        border-bottom: 2px solid black;
+        color: white;
+        text-decoration: 5px underline #58b3f0;
+    }
+      
+      .tab-content.hidden {
+        display: none;
+      }
+      .tab-content{
+        font-size: 1.1rem;
+      }
+    
+   
+
+    /* portfolio */
+    #portfolio .heading{
+        color: black;
+    }
+    #portfolio{
+        padding: 2% 7% 5%;
+        background-color: rgb(209, 198, 198); 
+    }
+    .card-portfolio{
+        border-radius: 8%;
+        margin: 7% auto ;
+        border-radius: 8%;
+        background-color: black;
+        margin: 7% auto ;
+    }
+    .card-head{
+        padding: 3% 2%;
+        text-align: center;
+        font-weight: 500;
+        color: #fff;
+    }
+    .portfolio-text{
+        color: #d6d6d6;
+        font-weight: 500;
+    }
+    .portfo{
+        text-align: center;
+    }
+    .portfolio-button{
+        margin-top: 5%;
+    }
+    .cards-icon{
+        margin: 2% auto;
+        padding: 7% 2%;
+        color: #fff; 
+    }
+    .card:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        scale: 1.02;
+    }
+
+    /* contact */
+
+    #contact{
+        padding: 7% 10%;
+        color: #fff;
+        background-color: black;
+    }
+    #contact .heading{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2.5rem;
+        line-height: 1.5;
+        color: #fff;
+    }
+    .contact-icons{
+        color: #69e9fa;
+        padding: 3%;
+       
+    }
+    .contact-icons:hover{
+        color: #ffffff;
+    }
+    #contact-me{
+        color: #58b3f0;
+    }
+    .icons{
+        padding: 5% 3%;
+    }
+    .contact-text{        
+        margin: 3%;
+        width: 100%;
+        color: #fff;
+        background-color: rgb(46, 43, 43);
+    }
+    .form-button{
+        margin-top:3% ;
+    }
+
+    /* footer */
+
+    #footer{
+        padding: 1% ;
+        color: #fff;
+        text-align: center;
+        background-color: rgb(113, 116, 117);
+    }
+   
+  .portfolio-nav{
+    position: fixed;
+   margin: 2% auto;
+  }
+   .icons a, #footer a{
+    color: white;
+    text-decoration: none;
+   }
+   @media screen and  (max-width: 480px) {
+    .tittle-section{
+        padding: 0px 5%;
+    }
+    .icons a{
+        color: white;
+        text-decoration: none;
+        font-size: 0.8rem;
+       }
+       #footer a{
+        text-decoration: none;
+        color: white;
+       }
+    .heading{
+        font-size: 2.1rem;
+    }
+    .tittle-subheading{
+        font-size: 1.3rem;
+    }
+    .word{
+        font-size: 1.6rem;
+    }
+    #portfolio .heading,  #contact .heading{
+        font-size: 1.5rem;
+    }
+   .about-img{
+    padding-bottom: 5%;
+   }  
+   }
+    
+    
